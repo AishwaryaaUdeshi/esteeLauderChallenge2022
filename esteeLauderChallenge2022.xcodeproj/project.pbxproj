@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C83C4A286D0CFB00FBEA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C49286D0CFB00FBEA40 /* AppDelegate.swift */; };
+		43C83C4C286D0CFB00FBEA40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C4B286D0CFB00FBEA40 /* SceneDelegate.swift */; };
+		43C83C4E286D0CFB00FBEA40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C4D286D0CFB00FBEA40 /* ViewController.swift */; };
+		43C83C51286D0CFC00FBEA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C83C4F286D0CFC00FBEA40 /* Main.storyboard */; };
+		43C83C54286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C52286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodeld */; };
+		43C83C56286D0D0D00FBEA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C83C55286D0D0D00FBEA40 /* Assets.xcassets */; };
+		43C83C59286D0D0D00FBEA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C83C57286D0D0D00FBEA40 /* LaunchScreen.storyboard */; };
+		43C83C64286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C63286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.swift */; };
+		43C83C6E286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C6D286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.swift */; };
+		43C83C70286D0D1100FBEA40 /* esteeLauderChallenge2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C83C6F286D0D1100FBEA40 /* esteeLauderChallenge2022UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C83C60286D0D1000FBEA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C83C3E286D0CFA00FBEA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C83C45286D0CFB00FBEA40;
+			remoteInfo = esteeLauderChallenge2022;
+		};
+		43C83C6A286D0D1100FBEA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C83C3E286D0CFA00FBEA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C83C45286D0CFB00FBEA40;
+			remoteInfo = esteeLauderChallenge2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C83C46286D0CFB00FBEA40 /* esteeLauderChallenge2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauderChallenge2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C83C49286D0CFB00FBEA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43C83C4B286D0CFB00FBEA40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43C83C4D286D0CFB00FBEA40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C83C50286D0CFC00FBEA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C83C53286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = esteeLauderChallenge2022.xcdatamodel; sourceTree = "<group>"; };
+		43C83C55286D0D0D00FBEA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C83C58286D0D0D00FBEA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C83C5A286D0D0D00FBEA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C83C5F286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esteeLauderChallenge2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C83C63286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderChallenge2022Tests.swift; sourceTree = "<group>"; };
+		43C83C69286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esteeLauderChallenge2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C83C6D286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderChallenge2022UITests.swift; sourceTree = "<group>"; };
+		43C83C6F286D0D1100FBEA40 /* esteeLauderChallenge2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderChallenge2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C83C43286D0CFB00FBEA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C5C286D0D1000FBEA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C66286D0D1100FBEA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C83C3D286D0CFA00FBEA40 = {
+			isa = PBXGroup;
+			children = (
+				43C83C48286D0CFB00FBEA40 /* esteeLauderChallenge2022 */,
+				43C83C62286D0D1000FBEA40 /* esteeLauderChallenge2022Tests */,
+				43C83C6C286D0D1100FBEA40 /* esteeLauderChallenge2022UITests */,
+				43C83C47286D0CFB00FBEA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C83C47286D0CFB00FBEA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C83C46286D0CFB00FBEA40 /* esteeLauderChallenge2022.app */,
+				43C83C5F286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.xctest */,
+				43C83C69286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C83C48286D0CFB00FBEA40 /* esteeLauderChallenge2022 */ = {
+			isa = PBXGroup;
+			children = (
+				43C83C49286D0CFB00FBEA40 /* AppDelegate.swift */,
+				43C83C4B286D0CFB00FBEA40 /* SceneDelegate.swift */,
+				43C83C4D286D0CFB00FBEA40 /* ViewController.swift */,
+				43C83C4F286D0CFC00FBEA40 /* Main.storyboard */,
+				43C83C55286D0D0D00FBEA40 /* Assets.xcassets */,
+				43C83C57286D0D0D00FBEA40 /* LaunchScreen.storyboard */,
+				43C83C5A286D0D0D00FBEA40 /* Info.plist */,
+				43C83C52286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodeld */,
+			);
+			path = esteeLauderChallenge2022;
+			sourceTree = "<group>";
+		};
+		43C83C62286D0D1000FBEA40 /* esteeLauderChallenge2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43C83C63286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.swift */,
+			);
+			path = esteeLauderChallenge2022Tests;
+			sourceTree = "<group>";
+		};
+		43C83C6C286D0D1100FBEA40 /* esteeLauderChallenge2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				43C83C6D286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.swift */,
+				43C83C6F286D0D1100FBEA40 /* esteeLauderChallenge2022UITestsLaunchTests.swift */,
+			);
+			path = esteeLauderChallenge2022UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C83C45286D0CFB00FBEA40 /* esteeLauderChallenge2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C83C73286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022" */;
+			buildPhases = (
+				43C83C42286D0CFB00FBEA40 /* Sources */,
+				43C83C43286D0CFB00FBEA40 /* Frameworks */,
+				43C83C44286D0CFB00FBEA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esteeLauderChallenge2022;
+			productName = esteeLauderChallenge2022;
+			productReference = 43C83C46286D0CFB00FBEA40 /* esteeLauderChallenge2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C83C5E286D0D1000FBEA40 /* esteeLauderChallenge2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C83C76286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022Tests" */;
+			buildPhases = (
+				43C83C5B286D0D1000FBEA40 /* Sources */,
+				43C83C5C286D0D1000FBEA40 /* Frameworks */,
+				43C83C5D286D0D1000FBEA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C83C61286D0D1000FBEA40 /* PBXTargetDependency */,
+			);
+			name = esteeLauderChallenge2022Tests;
+			productName = esteeLauderChallenge2022Tests;
+			productReference = 43C83C5F286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43C83C68286D0D1100FBEA40 /* esteeLauderChallenge2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C83C79286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022UITests" */;
+			buildPhases = (
+				43C83C65286D0D1100FBEA40 /* Sources */,
+				43C83C66286D0D1100FBEA40 /* Frameworks */,
+				43C83C67286D0D1100FBEA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C83C6B286D0D1100FBEA40 /* PBXTargetDependency */,
+			);
+			name = esteeLauderChallenge2022UITests;
+			productName = esteeLauderChallenge2022UITests;
+			productReference = 43C83C69286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C83C3E286D0CFA00FBEA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					43C83C45286D0CFB00FBEA40 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					43C83C5E286D0D1000FBEA40 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 43C83C45286D0CFB00FBEA40;
+					};
+					43C83C68286D0D1100FBEA40 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 43C83C45286D0CFB00FBEA40;
+					};
+				};
+			};
+			buildConfigurationList = 43C83C41286D0CFA00FBEA40 /* Build configuration list for PBXProject "esteeLauderChallenge2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C83C3D286D0CFA00FBEA40;
+			productRefGroup = 43C83C47286D0CFB00FBEA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C83C45286D0CFB00FBEA40 /* esteeLauderChallenge2022 */,
+				43C83C5E286D0D1000FBEA40 /* esteeLauderChallenge2022Tests */,
+				43C83C68286D0D1100FBEA40 /* esteeLauderChallenge2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C83C44286D0CFB00FBEA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C83C59286D0D0D00FBEA40 /* LaunchScreen.storyboard in Resources */,
+				43C83C56286D0D0D00FBEA40 /* Assets.xcassets in Resources */,
+				43C83C51286D0CFC00FBEA40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C5D286D0D1000FBEA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C67286D0D1100FBEA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C83C42286D0CFB00FBEA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C83C4E286D0CFB00FBEA40 /* ViewController.swift in Sources */,
+				43C83C54286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodeld in Sources */,
+				43C83C4A286D0CFB00FBEA40 /* AppDelegate.swift in Sources */,
+				43C83C4C286D0CFB00FBEA40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C5B286D0D1000FBEA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C83C64286D0D1000FBEA40 /* esteeLauderChallenge2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C83C65286D0D1100FBEA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C83C70286D0D1100FBEA40 /* esteeLauderChallenge2022UITestsLaunchTests.swift in Sources */,
+				43C83C6E286D0D1100FBEA40 /* esteeLauderChallenge2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C83C61286D0D1000FBEA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C83C45286D0CFB00FBEA40 /* esteeLauderChallenge2022 */;
+			targetProxy = 43C83C60286D0D1000FBEA40 /* PBXContainerItemProxy */;
+		};
+		43C83C6B286D0D1100FBEA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C83C45286D0CFB00FBEA40 /* esteeLauderChallenge2022 */;
+			targetProxy = 43C83C6A286D0D1100FBEA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C83C4F286D0CFC00FBEA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C83C50286D0CFC00FBEA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C83C57286D0D0D00FBEA40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C83C58286D0D0D00FBEA40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C83C71286D0D1100FBEA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43C83C72286D0D1100FBEA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C83C74286D0D1100FBEA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauderChallenge2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C83C75286D0D1100FBEA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauderChallenge2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43C83C77286D0D1100FBEA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esteeLauderChallenge2022.app/esteeLauderChallenge2022";
+			};
+			name = Debug;
+		};
+		43C83C78286D0D1100FBEA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esteeLauderChallenge2022.app/esteeLauderChallenge2022";
+			};
+			name = Release;
+		};
+		43C83C7A286D0D1100FBEA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = esteeLauderChallenge2022;
+			};
+			name = Debug;
+		};
+		43C83C7B286D0D1100FBEA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KwK.esteeLauderChallenge2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = esteeLauderChallenge2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C83C41286D0CFA00FBEA40 /* Build configuration list for PBXProject "esteeLauderChallenge2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C83C71286D0D1100FBEA40 /* Debug */,
+				43C83C72286D0D1100FBEA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C83C73286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C83C74286D0D1100FBEA40 /* Debug */,
+				43C83C75286D0D1100FBEA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C83C76286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C83C77286D0D1100FBEA40 /* Debug */,
+				43C83C78286D0D1100FBEA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C83C79286D0D1100FBEA40 /* Build configuration list for PBXNativeTarget "esteeLauderChallenge2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C83C7A286D0D1100FBEA40 /* Debug */,
+				43C83C7B286D0D1100FBEA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43C83C52286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43C83C53286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodel */,
+			);
+			currentVersion = 43C83C53286D0CFD00FBEA40 /* esteeLauderChallenge2022.xcdatamodel */;
+			path = esteeLauderChallenge2022.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43C83C3E286D0CFA00FBEA40 /* Project object */;
+}
